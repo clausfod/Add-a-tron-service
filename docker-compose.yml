@@ -4,6 +4,6 @@ services:
   redis:
    image: "redis:3"
   python:
-   build: .
+   image: "clausfod/add-a-tron-service:1.0.0"
    ports:
     - "5000:8080"
