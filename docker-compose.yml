@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  redis:
+   image: "redis:3"
+  python:
+   build: .
+   ports:
+    - "5000:8080"
